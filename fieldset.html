@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend> Veículos </legend>
+            <input type="checkbox" id="vel" name="veiculo1" value="Bike">
+            <label for="ve1">Eu tenho uma bicicleta</label><br>
+            <input type="checkbox" id="ve2" name="veiculo2" value="Carro">
+            <label for="ve2"> Eu tenho um carro</label><br>
+            <input type="checkbox" id="ve" name="veiculo3" value="Barco">
+            <label for="ve3"> Eu tenho um barco</label><br>
+        </fieldset><br>
+
+        <form>
+            <label>
+                Carros:
+                <select name="carros">
+                    <option value="volvo">Volvo</option>
+                    <option value="jeep" selected>Jeep</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </label>
+            <input type="submit" name="" id="">
+        </form><br>
+
+        <form>
+            <label>
+                Cinema:
+                <select name="Filmes">
+                    <optgroup label="Lançamento">
+                        <option value="ving">Vingadores</option>
+                        <option value="ar">de pernas pro ar</option>
+                        <option value="sha">Shazam</option>
+                    </optgroup>
+                    <optgroup label="Última semana">
+                        <option value="du">Dumbo</option>
+                    </optgroup>
+                </select>
+            </label>
+            <input type="submit">
+        </form>
+    </form><br>
+
+    <form action="">
+        <label for="">
+            Selecione sua cor favorita:
+            <input type="color" name="favcolor" id="#ff0000">
+        </label>
+        <input type="submit" name="" id="">
+    </form><br>
+
+    <form action="">
+        <label for="">
+            Selecione um arquivo: <input type="file" name="myfile" id="mFile" multiple><br><br>
+        </label>
+        <input type="submit" name="" id="">
+    </form>
+</body>
+</html>

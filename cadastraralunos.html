@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="cdalns.css">
+    
+</head>
+<body>
+    <center><form>
+        <fieldset class="a">
+            <legend>Dados Pessoais</legend>
+        <label for="nome1"> Nome: </label> <br>
+        <input type="text" id=nome1 name="nome">
+        <br>
+        <label for="sobre"> Sobrenome: </label> <br>
+        <input type="text" id=sobre name="sobrenome"><br>
+        <label for="cpf1"> CPF: </label> <br>
+        <input type="text" id=cpf1 name="cpf"><br>
+        <label for=dt_nascimento> Data de Nascimento: </label><br>
+        <input type="date" id=dt_nascimento name="nascimento" value=""><br>
+        <label for=dt_hora> Data e Hora de Nascimento: </label><br>
+        <input type="datetime-local" id=dt_hora name="hora_nascimento" value="">
+        <br>
+    </fieldset><br>
+        <fieldset class="b">
+        <legend>Dados de Endereço</legend>
+        Ruas:
+            <select name="Rua" class="st">
+                <optgroup label="Ruas">
+                    <option value="joa">João Gerúndio</option>
+                    <option value="cleiton">Cleiton Alves</option>
+                </optgroup>
+                </select><br><br>
+        Cidade:
+        <select name="Cidade" class="st">
+        <optgroup label="Cidades" class="st">
+            <option value="presp" class="st">Presidente Prudente</option>
+            <option value="am" class="st">Alfredo Marcondes</option>
+            <option value="gura" class="st">Guarujá</option>
+            <option value="rb" class="st">Ro Branco</option>
+        </optgroup></select><br><br>
+        Estado:
+        <select name="Estado" class="st">
+        <optgroup label="Estados" class="st">
+            <option value="sp" class="st">São Paulo</option>
+            <option value="sc" class="st">Santa Catarina</option>
+            <option value="rj" class="st">Rio de Janeiro</option>
+            <option value="ac" class="st">Acre</option>
+        </optgroup></select><br>
+    </fieldset><br>
+    <fieldset class="c">
+        <legend>Dados Acadêmicos</legend>
+        <label for="serie1"> Série</label>
+        <input type="text" id=serie1 name="serie"><br><br>
+        <label for="curso1">Curso</label>
+        <input type="text" id=curso1 name="curso"><br><br>
+        <label for="rm1"> RM: </label>
+        <input type="text" id=rm1 name="rm">
+        <br><br>
+        <label for="ra1"> RA </label>
+        <input type="text" id=ra1 name="ra"><br><br>
+    </fieldset><br>
+    <fieldset class="d">
+        <legend>Preferências/Áreas de interesse</legend>
+        Áreas:
+        <select name="Áreas" class="st">
+            <optgroup label="Áreas" class="st">
+                <option value="Teo" class="st">Teologia</option>
+                <option value="mdc" class="st">Medicina</option>
+                <option value="cdcp" class="st">Ciências da Computação</option>
+                <option value="dir" class="st">Direito</option>
+                <option value="stmif" class="st">Sistemas da Informação</option>
+            </optgroup></select><br><br>
+            <label for="inseri1" class="st"> Inserir um que não tem...</label>
+            <input type="text" id=inseri1 name="inseri"><br><br>
+
+            <input type="submit">
+    </fieldset>
+    </form>
+</center>
+</body>
+</html>
